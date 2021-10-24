@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" />
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- FONTAWSOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+  integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <section id="home">
+        <div class="card">
+            <div class="heading">
+                <h2 class="head">AIR QUALITY INDEX</h2>
+            </div>
+            <div class="search">
+                <div>
+                    <label >City</label><br/>
+                    <input type="text" class="city">
+                </div>
+                <div>
+                    <label for="">State</label><br/>
+                    <input type="text" class="state">
+                </div>
+                <div>
+                    <label for="">Country</label><br/>
+                    <input type="text" class="country">
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+            <div id="display" class="display">
+                <h2 class="aq"></h2>
+                <div class="concern-level">
+                    <h2 class="level"></h2>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="pollutants">
+        <h1 style="margin: 1em;">Major Pollutants</h1>
+        <div class="pollutants">
+            <div class="pol pol-1">
+                <h3 class="o3"></h3>
+                <h3>Ozone</h3>
+            </div>
+            <div class="pol pol-2">
+                <h3 class="co"></h3>
+                <h3>CO</h3>
+            </div>
+            <div class="pol pol-3">
+                <h3 class="no2"></h3>
+                <h3>NO2</h3>
+            </div>
+            <div class="pol pol-4">
+                <h3 class="so2"></h3>
+                <h3>SO2</h3>
+            </div>
+            <div class="pol pol-5">
+                <h3 class="pm2"></h3>
+                <h3>PM2.5</h3>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-aqi">
+            <div class="img">
+                <img src="aqi-1.png" alt="" srcset="">
+            </div>
+            <div class="info">
+                <h3>What is Air Quality Index?</h3>
+                <p>
+                    The air quality index (AQI) is an index for reporting air quality on a daily basis.
+                    It is a measure of how air pollution affects one's health within a short time period.
+                     The purpose of the AQI is to help people know how the local air quality impacts their health.
+                     People can use this website to know AQI of their city.
+                     The National Air Quality Index (AQI) was launched in New Delhi on September 17, 2014,
+                      under the Swachh Bharat Abhiyan. The daily ozone AQI is calculated by taking the maximum
+                       8 hour concentration from 07:00-23:00 LST, and then converting to AQI.
+                       There are 17 8-hour averages considered in each day.
+                       Each 8-hour average requires 6 of 8 hours (75%) for a valid calculation.
+                </p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="end">
+        <div class="moto">
+            <div class="plant-img">
+                <img src="bg.png" alt="">
+            </div>
+            <div class="quotation">
+               <p>Trees are the soul of our planet.</p>
+               <p>Planting trees would surely help in reducing toxic gases and balance the AQI.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="main">
+                <h3>Jagadeesh</h3>
+                <div class="media">
+                    <a href="mailto:jagadeeshkondra1@gmail.com" target="__blank"><i class="far fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/0_jagadeesh_0" target="__blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kondra-jagadeesh-785384195/" target="__blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/0-jagadeesh-0" target="__blank"><i class="fab fa-github"></i></a>
+                  </div>
+            </div>
+            <div class="main">
+                <h3>Kartikay</h3>
+                <div class="media">
+                    <a href="mailto:kapilkartikay01@gmail.com" target="__blank"><i class="far fa-envelope"></i></a>
+                    <a href="https://github.com/kartikay23" target="__blank"><i class="fab fa-github"></i></a>
+                  </div>
+            </div>
+
+
+          </div>
+          <h3 style="text-align: center;margin: 1% 0;">Developed by Jagadeesh & Kartikay Kapil</h3>
+
+    </section>
+
+    <script src="config.js"></script>
+    <script src="server.js"></script>
+
+</body>
+</html>
