@@ -6,3 +6,5 @@ Input the name of the city, state and country of which you want to find the AQI.
 
 Collaborations and suggestions are most welcome.
 Thanks!!!
+
+P.S.  This project will be redeveloped to new application very soon.
